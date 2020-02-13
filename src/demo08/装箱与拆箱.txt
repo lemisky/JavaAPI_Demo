@@ -1,0 +1,22 @@
+基本数据类型与对应包装类
+    装箱：基本数据类型转为包装类
+    构造方法：
+        Integer(int value);
+        Integer(String value);
+    静态方法：
+        Integer valueof(int value);
+        Integer valueof(String value);
+
+    拆箱：
+        int valueOf();
+
+自动装箱与自动拆箱
+    JDK1.5之后，基本数据类型，与包装类之间自动装拆箱
+
+基本数据类型与字符串
+    基本数据类型转字符串：
+        1.基本数据类型+""
+        2.基本数据类型的包装类方法 toString(对应基本数据类型)
+        3.String类静态方法，valueOf(基本数据类型)
+    字符串转基本数据类型
+        1.基本数据类型的包装类方法 parseInt/parseLong...

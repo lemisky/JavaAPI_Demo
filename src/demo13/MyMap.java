@@ -1,6 +1,7 @@
 package demo13;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Set;
 
 /**
@@ -43,14 +44,26 @@ public class MyMap {
         map.put("3",1);
         //8.遍历
         //  1.使用，keySet()获取key的集合
-        //  2.使用增强版的for循环
+        //  2.使用增强版的for循环/iterator迭代器
         Set<String> keys = map.keySet();
+        //增强for循环
         for (String key :
                 keys) {
             System.out.println(key+":"+map.get(key));
-            //1:1
-            //2:2
-            //3:1
         }
+        System.out.println("======================================");
+        //iterator迭代器
+        Iterator<String> iterator = keys.iterator();
+        while (iterator.hasNext()){
+            String key=iterator.next();
+            System.out.println(key+":"+map.get(key));
+        }
+        //lambda表达式也可以
+        keys.forEach((key)->{
+            System.out.println(key+":"+map.get(key));
+        });
+
+        //8.遍历的另一种方式
+
     }
 }

@@ -1,0 +1,5 @@
+#comments
+#Sun Feb 16 14:17:35 CST 2020
+name=java配置文件
+width=400
+hight=300

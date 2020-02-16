@@ -11,6 +11,7 @@ import java.io.IOException;
         FileReader extends InputStreamReader
  */
 public class MyReader {
+
     public static void main(String[] args) throws IOException {
         //字符流读取数据
         reader();
@@ -32,4 +33,6 @@ public class MyReader {
         //3.关闭对象
         fr.close();
     }
+
+
 }

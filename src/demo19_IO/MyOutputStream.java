@@ -1,7 +1,6 @@
-package demo19_OutputStream;
+package demo19_IO;
 
 import java.io.ByteArrayOutputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -45,7 +44,7 @@ public class MyOutputStream {
 
     private static void output2() throws IOException {
         //以追加形式打开文件
-        FileOutputStream fos = new FileOutputStream("src/demo19_OutputStream/fos.txt",true);
+        FileOutputStream fos = new FileOutputStream("src/demo19_IO/fos.txt",true);
         //write(byte[] b, int off, int len)
         //          将指定字节数组中从偏移量 off 开始的 len 个字节写入此输出流。
         fos.write("AA\r\n以追加形式打开文件BB".getBytes(),1,18);

@@ -1,0 +1,3 @@
+Java´òÓ¡Á÷ PrintStream ²âÊÔ
+MyPrintStream.main
+99

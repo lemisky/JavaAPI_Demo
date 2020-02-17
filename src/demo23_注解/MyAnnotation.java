@@ -3,7 +3,6 @@ package demo23_注解;
 /**
  * @author foyou
  * @version 1.1
- * @deprecated java注解学习，javadoc使用
  */
 public class MyAnnotation {
     /**

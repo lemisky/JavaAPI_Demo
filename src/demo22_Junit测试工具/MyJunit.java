@@ -1,4 +1,4 @@
-package demo22_Junit;
+package demo22_Junit测试工具;
 
 import org.junit.jupiter.api.*;
 
